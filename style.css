@@ -1,0 +1,102 @@
+body {
+    background-color: whitesmoke;
+
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: plum;
+}
+
+#display-board {
+    position: absolute;
+    left: 80px;
+    font-family: cursive;
+    font-size: 40px;
+    color: red;
+}
+
+#game-board {
+    position: absolute;
+    left: 37%;
+    top: 140px;
+    background-color: burlywood;
+    border: goldenrod 10px solid;
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+}
+
+.square {
+    background-color: cornsilk;
+    font-size: 60px;
+    font-family: cursive;
+    margin: auto;
+    text-align: center;
+    height: 56px;
+    width: 56px;
+    padding: 20px;
+}
+
+#control-button {
+    height: 56px;
+    width: 56px;
+    font-family: cursive;
+    border-radius: 50px;
+    position: absolute;
+    left: 27%;
+    top: 27%;
+    background-color: oldlace;
+}
+
+#control-button-2 {
+    height: 56px;
+    width: 56px;
+    font-family: cursive;
+    border-radius: 50px;
+    position: absolute;
+    left: 27%;
+    top: 45%;
+    background-color: lightpink
+}
+
+#player-box {
+    position: absolute;
+    left: 67%;
+    top: 30%;
+    border: rgb(233, 236, 233) 1px solid;
+    height: 150px;
+    width: 300px;
+    background-color: lavender;
+    border-radius: 100px;
+}
+
+#player-1 {
+    position: absolute;
+    left: 18%;
+    top: 10%;
+    font-family: sans-serif;
+
+}
+
+#player-2 {
+    position: absolute;
+    left: 18%;
+    top: 51%;
+    font-family: sans-serif;
+
+}
+
+.player-name {
+    position: relative;
+    left: 162px;
+    top: 11px;
+    font-family: cursive;
+}
+
+
